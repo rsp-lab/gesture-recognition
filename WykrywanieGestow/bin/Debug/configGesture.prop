@@ -1,0 +1,34 @@
+# Configuracja dla IrfanView
+# ^ Crtl
+# + Shift
+# % Alt
+# {F12}{RIGHT}{ENTER}
+# Trzy palce 
+3fingup=
+3fingdown=+N
+3fingleft=
+3fingright=
+
+# Dwa palce
+2fingup={F3}
+2fingdown=
+2fingleft=
+2fingright=
+
+# Jeden palec pionowy
+1fingSup=
+1fingSdown=
+1fingSleft={LEFT}
+1fingSright={RIGHT}
+
+# Jeden palec skoœny(lewo)
+1fingLup=
+1fingLdown=
+1fingLleft=l
+1fingLright=r
+
+# Jeden palec skoœny(prawo)
+1fingRup=
+1fingRdown=%P
+1fingRleft=
+1fingRright=

@@ -1,0 +1,56 @@
+﻿Build started 2012-01-15 09:44:03.
+     1>Project "D:\Laboratoria\Workspace C++\CVTest\CVTest\CVTest.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\CVTest.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\CVTest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Programowanie\Microsoft Visual Studio 2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Configuration.cpp ImageProcessor.cpp MainFile.cpp Position.cpp Recognitor.cpp
+         Recognitor.cpp
+     1>c:\program files\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\programowanie\microsoft visual studio 2010\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\program files\opencv\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 c:\program files\opencv\build\include\opencv2\flann\flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+     1>d:\laboratoria\workspace c++\cvtest\cvtest\imageprocessor.cpp(343): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\laboratoria\workspace c++\cvtest\cvtest\imageprocessor.cpp(520): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\laboratoria\workspace c++\cvtest\cvtest\imageprocessor.cpp(539): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\laboratoria\workspace c++\cvtest\cvtest\imageprocessor.cpp(560): warning C4018: '>=' : signed/unsigned mismatch
+         Position.cpp
+         MainFile.cpp
+     1>c:\program files\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\programowanie\microsoft visual studio 2010\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\program files\opencv\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 c:\program files\opencv\build\include\opencv2\flann\flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+     1>d:\laboratoria\workspace c++\cvtest\cvtest\imageprocessor.cpp(343): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\laboratoria\workspace c++\cvtest\cvtest\imageprocessor.cpp(520): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\laboratoria\workspace c++\cvtest\cvtest\imageprocessor.cpp(539): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\laboratoria\workspace c++\cvtest\cvtest\imageprocessor.cpp(560): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\laboratoria\workspace c++\cvtest\cvtest\mainfile.cpp(8): warning C4068: unknown pragma
+         ImageProcessor.cpp
+     1>c:\program files\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\programowanie\microsoft visual studio 2010\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\program files\opencv\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 c:\program files\opencv\build\include\opencv2\flann\flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+     1>d:\laboratoria\workspace c++\cvtest\cvtest\imageprocessor.cpp(343): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\laboratoria\workspace c++\cvtest\cvtest\imageprocessor.cpp(520): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\laboratoria\workspace c++\cvtest\cvtest\imageprocessor.cpp(539): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\laboratoria\workspace c++\cvtest\cvtest\imageprocessor.cpp(560): warning C4018: '>=' : signed/unsigned mismatch
+         Configuration.cpp
+         Generating Code...
+       Link:
+         D:\Programowanie\Microsoft Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Laboratoria\Workspace C++\CVTest\Debug\CVTest.exe" /NOLOGO opencv_calib3d231d.lib opencv_contrib231d.lib opencv_core231d.lib opencv_features2d231d.lib opencv_flann231d.lib opencv_gpu231d.lib opencv_haartraining_engined.lib opencv_highgui231d.lib opencv_imgproc231d.lib opencv_legacy231d.lib opencv_ml231d.lib opencv_objdetect231d.lib opencv_ts231d.lib opencv_video231d.lib tbb_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CVTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Laboratoria\Workspace C++\CVTest\Debug\CVTest.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Laboratoria\Workspace C++\CVTest\Debug\CVTest.lib" /MACHINE:X86 Debug\Configuration.obj
+         Debug\ImageProcessor.obj
+         Debug\MainFile.obj
+         Debug\Position.obj
+         Debug\Recognitor.obj
+         CVTest.vcxproj -> D:\Laboratoria\Workspace C++\CVTest\Debug\CVTest.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Laboratoria\Workspace C++\CVTest\Debug\CVTest.exe;#1" /manifest Debug\CVTest.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\CVTest.unsuccessfulbuild".
+         Touching "Debug\CVTest.lastbuildstate".
+     1>Done Building Project "D:\Laboratoria\Workspace C++\CVTest\CVTest\CVTest.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.78

@@ -1,0 +1,9 @@
+D:\Laboratoria\Workspace C++\CVTest\WykrywanieGestow\bin\Release\WykrywanieGestow.exe
+D:\Laboratoria\Workspace C++\CVTest\WykrywanieGestow\bin\Release\WykrywanieGestow.pdb
+D:\Laboratoria\Workspace C++\CVTest\WykrywanieGestow\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Laboratoria\Workspace C++\CVTest\WykrywanieGestow\obj\x86\Release\WykrywanieGestow.Form1.resources
+D:\Laboratoria\Workspace C++\CVTest\WykrywanieGestow\obj\x86\Release\WykrywanieGestow.Properties.Resources.resources
+D:\Laboratoria\Workspace C++\CVTest\WykrywanieGestow\obj\x86\Release\GenerateResource.read.1.tlog
+D:\Laboratoria\Workspace C++\CVTest\WykrywanieGestow\obj\x86\Release\GenerateResource.write.1.tlog
+D:\Laboratoria\Workspace C++\CVTest\WykrywanieGestow\obj\x86\Release\WykrywanieGestow.exe
+D:\Laboratoria\Workspace C++\CVTest\WykrywanieGestow\obj\x86\Release\WykrywanieGestow.pdb

@@ -1,0 +1,59 @@
+﻿Build started 2012-01-17 15:18:54.
+     1>Project "C:\Radek\program\final\Source\CVTest\CVTest.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\CVTest.lastbuildstate".
+       PrepareForBuild:
+         Creating directory "C:\Radek\program\final\Source\Release\".
+       InitializeBuildStatus:
+         Touching "Release\CVTest.unsuccessfulbuild".
+       ClCompile:
+         D:\Programowanie\Microsoft Visual Studio 2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Configuration.cpp ImageProcessor.cpp MainFile.cpp Position.cpp Recognitor.cpp
+         Configuration.cpp
+         ImageProcessor.cpp
+     1>c:\program files\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programowanie\Microsoft Visual Studio 2010\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>C:\Program Files\opencv\build\include\opencv2/flann/flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 C:\Program Files\opencv\build\include\opencv2/flann/flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+     1>ImageProcessor.cpp(343): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>ImageProcessor.cpp(520): warning C4018: '>=' : signed/unsigned mismatch
+     1>ImageProcessor.cpp(539): warning C4018: '>=' : signed/unsigned mismatch
+     1>ImageProcessor.cpp(560): warning C4018: '>=' : signed/unsigned mismatch
+         MainFile.cpp
+     1>c:\program files\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programowanie\Microsoft Visual Studio 2010\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>C:\Program Files\opencv\build\include\opencv2/flann/flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 C:\Program Files\opencv\build\include\opencv2/flann/flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+     1>c:\radek\program\final\source\cvtest\ImageProcessor.cpp(343): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\radek\program\final\source\cvtest\ImageProcessor.cpp(520): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\radek\program\final\source\cvtest\ImageProcessor.cpp(539): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\radek\program\final\source\cvtest\ImageProcessor.cpp(560): warning C4018: '>=' : signed/unsigned mismatch
+     1>MainFile.cpp(8): warning C4068: unknown pragma
+         Position.cpp
+         Recognitor.cpp
+     1>c:\program files\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programowanie\Microsoft Visual Studio 2010\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>C:\Program Files\opencv\build\include\opencv2/flann/flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 C:\Program Files\opencv\build\include\opencv2/flann/flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+     1>c:\radek\program\final\source\cvtest\ImageProcessor.cpp(343): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\radek\program\final\source\cvtest\ImageProcessor.cpp(520): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\radek\program\final\source\cvtest\ImageProcessor.cpp(539): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\radek\program\final\source\cvtest\ImageProcessor.cpp(560): warning C4018: '>=' : signed/unsigned mismatch
+       Link:
+         D:\Programowanie\Microsoft Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Radek\program\final\Source\Release\CVTest.exe" /NOLOGO opencv_calib3d231d.lib opencv_contrib231d.lib opencv_core231d.lib opencv_features2d231d.lib opencv_flann231d.lib opencv_gpu231d.lib opencv_haartraining_engined.lib opencv_highgui231d.lib opencv_imgproc231d.lib opencv_legacy231d.lib opencv_ml231d.lib opencv_objdetect231d.lib opencv_ts231d.lib opencv_video231d.lib tbb_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\CVTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Radek\program\final\Source\Release\CVTest.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Radek\program\final\Source\Release\CVTest.lib" /MACHINE:X86 Release\Configuration.obj
+         Release\ImageProcessor.obj
+         Release\MainFile.obj
+         Release\Position.obj
+         Release\Recognitor.obj
+         Generating code
+         Finished generating code
+         CVTest.vcxproj -> C:\Radek\program\final\Source\Release\CVTest.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Radek\program\final\Source\Release\CVTest.exe;#1" /manifest Release\CVTest.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\CVTest.unsuccessfulbuild".
+         Touching "Release\CVTest.lastbuildstate".
+     1>Done Building Project "C:\Radek\program\final\Source\CVTest\CVTest.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:24.44
